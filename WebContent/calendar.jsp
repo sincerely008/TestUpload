@@ -86,9 +86,20 @@
           
           events: [
         	    {
-        	      title  : 'event1', //${dto.title}
-        	      start  : '2019-07-21' //${dto.date}
+        	      title  : 'event1', 
+        	      start  : '2019-08-21' 
         	    }],
+        	    eventColor: 'yellow',
+        	   
+        
+        eventMouseEnter: function(info){
+        	alert(info.event.title + "어찌합니까");
+        	
+        	 
+        	
+        	
+        }
+        
             
           });
 
